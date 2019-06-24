@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="78449e54-2797-4ca5-9b4f-d82d46f242d8" isOneWay="false" action="" name="getBookInfo" bindingOperationName="getBookInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="78449e54-2797-4ca5-9b4f-d82d46f242d8fileName">getBookInfo</con:setting></con:settings><con:call id="dc76317e-909c-48ad-bb2e-d6f9e3a1347d" name="GetInfoBook11"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/soap_war/library</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:getBookInfo>
+         <!--Optional:-->
+         <arg0>11</arg0>
+      </soap:getBookInfo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/getBookInfoRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation>

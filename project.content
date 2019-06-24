@@ -1,0 +1,15 @@
+LibraryServicesPortBinding\addBook.xml
+LibraryServicesPortBinding\bookCreation.xml
+LibraryServicesPortBinding\deleteBook.xml
+LibraryServicesPortBinding\getBookInfo.xml
+LibraryServicesPortBinding\getBookInfoByISBN.xml
+LibraryServicesPortBinding\listAllBooks.xml
+LibraryServicesPortBinding\updateBookInfo.xml
+Library-Services\Test-1.xml
+LibraryServicesPortBinding-Virtual-Service\addBook.xml
+LibraryServicesPortBinding-Virtual-Service\bookCreation.xml
+LibraryServicesPortBinding-Virtual-Service\deleteBook.xml
+LibraryServicesPortBinding-Virtual-Service\getBookInfo.xml
+LibraryServicesPortBinding-Virtual-Service\getBookInfoByISBN.xml
+LibraryServicesPortBinding-Virtual-Service\listAllBooks.xml
+LibraryServicesPortBinding-Virtual-Service\updateBookInfo.xml

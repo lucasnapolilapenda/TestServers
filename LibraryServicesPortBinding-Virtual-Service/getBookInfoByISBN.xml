@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="getBookInfoByISBN" id="70096d85-a704-4a7d-8445-08333bcee4c0" interface="LibraryServicesPortBinding" operation="getBookInfoByISBN" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="70096d85-a704-4a7d-8445-08333bcee4c0fileName">getBookInfoByISBN</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="d1f40c7b-b0ca-425c-8acf-c2d363a30437" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:getBookInfoByISBNResponse>
+         <!--Optional:-->
+         <return>?</return>
+      </soap:getBookInfoByISBNResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/getBookInfoByISBNResponse"/></con:response></con:mockOperation>

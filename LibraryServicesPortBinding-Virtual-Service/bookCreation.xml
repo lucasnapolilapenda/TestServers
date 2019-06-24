@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="bookCreation" id="bc503f0e-1aea-482c-8cf5-2f2557f96c02" interface="LibraryServicesPortBinding" operation="bookCreation" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="bc503f0e-1aea-482c-8cf5-2f2557f96c02fileName">bookCreation</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="ece8df84-52e1-4df0-971b-ef5a9c13c51b" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:bookCreationResponse>
+         <!--Optional:-->
+         <return>
+            <!--Optional:-->
+            <author>?</author>
+            <!--Optional:-->
+            <description>?</description>
+            <!--Optional:-->
+            <id>?</id>
+            <!--Optional:-->
+            <isbn>?</isbn>
+            <!--Optional:-->
+            <publisher>?</publisher>
+            <!--Optional:-->
+            <title>?</title>
+         </return>
+      </soap:bookCreationResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/bookCreationResponse"/></con:response></con:mockOperation>

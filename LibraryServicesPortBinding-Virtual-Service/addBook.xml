@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="addBook" id="099d3576-d95d-47fa-a05b-5c465c1f16f2" interface="LibraryServicesPortBinding" operation="addBook" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="099d3576-d95d-47fa-a05b-5c465c1f16f2fileName">addBook</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="3905e6b0-48d7-44b7-98df-af0d5fcc5bba" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:addBookResponse>
+         <!--Optional:-->
+         <return>?</return>
+      </soap:addBookResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/addBookResponse"/></con:response></con:mockOperation>

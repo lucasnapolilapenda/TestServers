@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="40eae1eb-55e0-4e2e-beb2-b6b35f65b680" isOneWay="false" action="" name="deleteBook" bindingOperationName="deleteBook" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="40eae1eb-55e0-4e2e-beb2-b6b35f65b680fileName">deleteBook</con:setting></con:settings><con:call id="8814db90-3991-49d9-a08f-14595067ff79" name="DeleteBook"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/soap_war/library</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:deleteBook>
+         <!--Optional:-->
+         <arg0>11</arg0>
+      </soap:deleteBook>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/deleteBookRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation>

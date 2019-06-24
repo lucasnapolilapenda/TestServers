@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="20de3916-0283-4b73-9283-73456ee1313a" isOneWay="false" action="" name="updateBookInfo" bindingOperationName="updateBookInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="20de3916-0283-4b73-9283-73456ee1313afileName">updateBookInfo</con:setting></con:settings><con:call id="d944c286-2e9b-4c04-b753-482309f292bc" name="Update12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/soap_war/library</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:updateBookInfo>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <author>Cambio</author>
+            <!--Optional:-->
+            <description>Cambio</description>
+            <!--Optional:-->
+            <id>11</id>
+            <!--Optional:-->
+            <isbn>Cambio</isbn>
+            <!--Optional:-->
+            <publisher>Cambio</publisher>
+            <!--Optional:-->
+            <title>Cambio</title>
+         </arg0>
+      </soap:updateBookInfo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/updateBookInfoRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation>

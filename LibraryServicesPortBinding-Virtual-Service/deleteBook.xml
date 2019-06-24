@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="deleteBook" id="3ce8cd1e-aad5-4b59-b3aa-5d37e5e3c007" interface="LibraryServicesPortBinding" operation="deleteBook" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="3ce8cd1e-aad5-4b59-b3aa-5d37e5e3c007fileName">deleteBook</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/><con:response name="Response 1" id="0c6344e0-4f0c-4993-ad86-956a2b737d29" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:deleteBookResponse>
+         <!--Optional:-->
+         <return>?</return>
+      </soap:deleteBookResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/deleteBookResponse"/></con:response></con:mockOperation>

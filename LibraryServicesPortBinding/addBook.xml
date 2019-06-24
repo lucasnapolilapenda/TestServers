@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="84f0cf4e-6050-495e-87f9-3627b443cf7d" isOneWay="false" action="" name="addBook" bindingOperationName="addBook" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="84f0cf4e-6050-495e-87f9-3627b443cf7dfileName">addBook</con:setting></con:settings><con:call id="2ad7dced-c7bf-4e73-a668-792766c0111b" name="Add Book11"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/soap_war/library</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:addBook>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <author>Lucas</author>
+            <!--Optional:-->
+            <description>Pedrito</description>
+            <!--Optional:-->
+            <id>11</id>
+            <!--Optional:-->
+            <isbn>54664884 </isbn>
+            <!--Optional:-->
+            <publisher>Planeta</publisher>
+            <!--Optional:-->
+            <title>Los Programas de Lucas</title>
+         </arg0>
+      </soap:addBook>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/addBookRequest"/><con:wsrmConfig version="1.2"/></con:call><con:call id="8f495fbe-9a27-4db0-9fe3-f7b4507a9993" name="Add Book12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/soap_war/library</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soap.lucas.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:addBook>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <author>Serafin Masparrote</author>
+            <!--Optional:-->
+            <description>Libro de Biologia de 5 ano</description>
+            <!--Optional:-->
+            <id>12</id>
+            <!--Optional:-->
+            <isbn>345729918</isbn>
+            <!--Optional:-->
+            <publisher>Santillana</publisher>
+            <!--Optional:-->
+            <title>Biologia de Cuarto Ano</title>
+         </arg0>
+      </soap:addBook>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soap.lucas.com/LibraryServices/addBookRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation>

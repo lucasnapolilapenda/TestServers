@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="afa59cc0-2dbb-4417-b2c1-9fb7a4a11c46" isOneWay="false" action="" name="bookCreation" bindingOperationName="bookCreation" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="afa59cc0-2dbb-4417-b2c1-9fb7a4a11c46fileName">bookCreation</con:setting></con:settings></con:operation>
